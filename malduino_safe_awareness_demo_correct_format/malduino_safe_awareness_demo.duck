@@ -1,0 +1,100 @@
+REM ==================================================
+REM MalDuino Safe Demo: Cyber Awareness Badge Generator
+REM Purpose: Harmless proof-of-keystroke-injection demo
+REM Target: Windows
+REM Does NOT run cmd, powershell, downloads, exfiltration, or persistence
+REM ==================================================
+
+DEFAULTDELAY 80
+DEFAULTCHARDELAY 8
+
+REM Give the OS time to detect the MalDuino as a keyboard
+DELAY 2000
+
+REM Open Notepad
+GUI r
+DELAY 500
+STRING notepad
+ENTER
+DELAY 900
+
+REM Type the awareness badge
+STRING ==================================================
+ENTER
+STRING              USB SECURITY DRILL CARD
+ENTER
+STRING ==================================================
+ENTER
+ENTER
+STRING This file was created by a MalDuino-style HID demo.
+ENTER
+STRING It proves that a USB device can type like a keyboard.
+ENTER
+STRING No commands were run. No files were read. No data was sent.
+ENTER
+ENTER
+STRING --------------------------------------------------
+ENTER
+STRING  LESSON:
+ENTER
+STRING  Treat unknown USB devices like unknown links.
+ENTER
+STRING  They may not be storage devices - they may be keyboards.
+ENTER
+STRING --------------------------------------------------
+ENTER
+ENTER
+STRING SAFE CHECKLIST:
+ENTER
+STRING [ ] Only plug in USB devices you own or trust.
+ENTER
+STRING [ ] Lock your screen when stepping away.
+ENTER
+STRING [ ] Report unknown USB drops to IT/security.
+ENTER
+STRING [ ] Use a USB data blocker for charging in public.
+ENTER
+STRING [ ] Keep endpoint protection enabled.
+ENTER
+ENTER
+STRING --------------------------------------------------
+ENTER
+STRING  MINI INCIDENT SIMULATION
+ENTER
+STRING --------------------------------------------------
+ENTER
+STRING Event: Unauthorised USB keyboard detected
+ENTER
+STRING Risk: Keystroke injection
+ENTER
+STRING Impact: Depends on user session permissions
+ENTER
+STRING Response: Unplug device, lock screen, report event
+ENTER
+ENTER
+STRING --------------------------------------------------
+ENTER
+STRING  CREATIVE PROOF MARK
+ENTER
+STRING --------------------------------------------------
+ENTER
+STRING      [MALDUINO SAFE MODE]
+ENTER
+STRING      | keyboard-only |
+ENTER
+STRING      | no commands   |
+ENTER
+STRING      | no network    |
+ENTER
+STRING      | no persistence|
+ENTER
+ENTER
+STRING Status: DEMO COMPLETE
+ENTER
+STRING ==================================================
+ENTER
+ENTER
+STRING Tip: If this surprised you, imagine what a malicious USB could type.
+ENTER
+STRING This is why physical security matters.
+ENTER
